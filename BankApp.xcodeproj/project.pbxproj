@@ -16,6 +16,7 @@
 		0ABC6B1E29770526007A2D21 /* BelarusbankAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B1D29770526007A2D21 /* BelarusbankAPI.swift */; };
 		0ABC6B202977052F007A2D21 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B1F2977052F007A2D21 /* Model.swift */; };
 		0ABC6B222977053C007A2D21 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B212977053C007A2D21 /* Provider.swift */; };
+		0ABC6B2429770D0B007A2D21 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B2329770D0B007A2D21 /* ProfileController.swift */; };
 		4CA11ADF539A8043241021E6 /* Pods_BankApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3189DF7ABE780F7E00D80D9B /* Pods_BankApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		0ABC6B1D29770526007A2D21 /* BelarusbankAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelarusbankAPI.swift; sourceTree = "<group>"; };
 		0ABC6B1F2977052F007A2D21 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0ABC6B212977053C007A2D21 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		0ABC6B2329770D0B007A2D21 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		3189DF7ABE780F7E00D80D9B /* Pods_BankApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B09AAEE27AB75FCE4999C83 /* Pods-BankApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.release.xcconfig"; path = "Target Support Files/Pods-BankApp/Pods-BankApp.release.xcconfig"; sourceTree = "<group>"; };
 		E5DFD5AFEEA82EEC9D641FE5 /* Pods-BankApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.debug.xcconfig"; path = "Target Support Files/Pods-BankApp/Pods-BankApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				0ABC6B102976FFC5007A2D21 /* Assets.xcassets */,
 				0ABC6B122976FFC5007A2D21 /* LaunchScreen.storyboard */,
 				0ABC6B152976FFC5007A2D21 /* Info.plist */,
+				0ABC6B2329770D0B007A2D21 /* ProfileController.swift */,
 			);
 			path = BankApp;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABC6B2429770D0B007A2D21 /* ProfileController.swift in Sources */,
 				0ABC6B202977052F007A2D21 /* Model.swift in Sources */,
 				0ABC6B0C2976FFC1007A2D21 /* ViewController.swift in Sources */,
 				0ABC6B082976FFC1007A2D21 /* AppDelegate.swift in Sources */,
