@@ -21,12 +21,11 @@ class StonesCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        selectionStyle = .none
+       // selectionStyle = .none
     }
     
     func set(stones: ModelStones) {
         self.nameLabel.text = "Город: \(stones.name)"
-        
         self.filial_textLabel.text = "Форма огранки: \(stones.filials_text)"
         self.atestatlabel.text = "Номер аттестата: \(stones.attestat)"
         self.name_ruLabel.text = "Форма: \(stones.name_ru)"

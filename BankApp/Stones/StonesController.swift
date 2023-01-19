@@ -20,6 +20,7 @@ class StonesController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         registerCell()
+        getData()
 
     }
     

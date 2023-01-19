@@ -48,7 +48,7 @@ extension APIStones: TargetType {
         
         switch self{
             case .getStones:
-                params[""] = ""
+                params["city"] = nil
         }
         return nil
     }
