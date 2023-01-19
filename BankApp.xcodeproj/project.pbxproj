@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6314132979A51400687FEF /* APIStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6314122979A51400687FEF /* APIStones.swift */; };
+		0A6314152979A51F00687FEF /* ModelStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6314142979A51F00687FEF /* ModelStones.swift */; };
+		0A6314172979A52C00687FEF /* ProviderStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6314162979A52C00687FEF /* ProviderStones.swift */; };
+		0A6314192979A58700687FEF /* StonesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6314182979A58700687FEF /* StonesController.swift */; };
+		0A63141D2979A64400687FEF /* StonesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A63141B2979A64400687FEF /* StonesCell.swift */; };
+		0A63141E2979A64400687FEF /* StonesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A63141C2979A64400687FEF /* StonesCell.xib */; };
 		0ABC6B082976FFC1007A2D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B072976FFC1007A2D21 /* AppDelegate.swift */; };
 		0ABC6B0A2976FFC1007A2D21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B092976FFC1007A2D21 /* SceneDelegate.swift */; };
 		0ABC6B0C2976FFC1007A2D21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B0B2976FFC1007A2D21 /* ViewController.swift */; };
@@ -17,10 +23,20 @@
 		0ABC6B202977052F007A2D21 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B1F2977052F007A2D21 /* Model.swift */; };
 		0ABC6B222977053C007A2D21 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B212977053C007A2D21 /* Provider.swift */; };
 		0ABC6B2429770D0B007A2D21 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B2329770D0B007A2D21 /* ProfileController.swift */; };
+		0ABC6B2E297714E0007A2D21 /* CityCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B2C297714E0007A2D21 /* CityCollectionCell.swift */; };
+		0ABC6B2F297714E0007A2D21 /* CityCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC6B2D297714E0007A2D21 /* CityCollectionCell.xib */; };
+		0ABC6B3429771511007A2D21 /* SortCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B3229771511007A2D21 /* SortCollectionCell.swift */; };
+		0ABC6B3529771511007A2D21 /* SortCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC6B3329771511007A2D21 /* SortCollectionCell.xib */; };
 		4CA11ADF539A8043241021E6 /* Pods_BankApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3189DF7ABE780F7E00D80D9B /* Pods_BankApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A6314122979A51400687FEF /* APIStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIStones.swift; sourceTree = "<group>"; };
+		0A6314142979A51F00687FEF /* ModelStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelStones.swift; sourceTree = "<group>"; };
+		0A6314162979A52C00687FEF /* ProviderStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderStones.swift; sourceTree = "<group>"; };
+		0A6314182979A58700687FEF /* StonesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonesController.swift; sourceTree = "<group>"; };
+		0A63141B2979A64400687FEF /* StonesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonesCell.swift; sourceTree = "<group>"; };
+		0A63141C2979A64400687FEF /* StonesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StonesCell.xib; sourceTree = "<group>"; };
 		0ABC6B042976FFC1007A2D21 /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABC6B072976FFC1007A2D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ABC6B092976FFC1007A2D21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +49,10 @@
 		0ABC6B1F2977052F007A2D21 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0ABC6B212977053C007A2D21 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		0ABC6B2329770D0B007A2D21 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		0ABC6B2C297714E0007A2D21 /* CityCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCollectionCell.swift; sourceTree = "<group>"; };
+		0ABC6B2D297714E0007A2D21 /* CityCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityCollectionCell.xib; sourceTree = "<group>"; };
+		0ABC6B3229771511007A2D21 /* SortCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortCollectionCell.swift; sourceTree = "<group>"; };
+		0ABC6B3329771511007A2D21 /* SortCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SortCollectionCell.xib; sourceTree = "<group>"; };
 		3189DF7ABE780F7E00D80D9B /* Pods_BankApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B09AAEE27AB75FCE4999C83 /* Pods-BankApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.release.xcconfig"; path = "Target Support Files/Pods-BankApp/Pods-BankApp.release.xcconfig"; sourceTree = "<group>"; };
 		E5DFD5AFEEA82EEC9D641FE5 /* Pods-BankApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.debug.xcconfig"; path = "Target Support Files/Pods-BankApp/Pods-BankApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -50,6 +70,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6314112979A50200687FEF /* Stones */ = {
+			isa = PBXGroup;
+			children = (
+				0A63141A2979A62700687FEF /* StonesCell */,
+				0A6314122979A51400687FEF /* APIStones.swift */,
+				0A6314142979A51F00687FEF /* ModelStones.swift */,
+				0A6314162979A52C00687FEF /* ProviderStones.swift */,
+				0A6314182979A58700687FEF /* StonesController.swift */,
+			);
+			path = Stones;
+			sourceTree = "<group>";
+		};
+		0A63141A2979A62700687FEF /* StonesCell */ = {
+			isa = PBXGroup;
+			children = (
+				0A63141B2979A64400687FEF /* StonesCell.swift */,
+				0A63141C2979A64400687FEF /* StonesCell.xib */,
+			);
+			path = StonesCell;
+			sourceTree = "<group>";
+		};
 		0ABC6AFB2976FFC1007A2D21 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +112,8 @@
 		0ABC6B062976FFC1007A2D21 /* BankApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A6314112979A50200687FEF /* Stones */,
+				0ABC6B2B297714BD007A2D21 /* CollectionsB */,
 				0ABC6B1C29770517007A2D21 /* API */,
 				0ABC6B072976FFC1007A2D21 /* AppDelegate.swift */,
 				0ABC6B092976FFC1007A2D21 /* SceneDelegate.swift */,
@@ -92,6 +135,17 @@
 				0ABC6B212977053C007A2D21 /* Provider.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		0ABC6B2B297714BD007A2D21 /* CollectionsB */ = {
+			isa = PBXGroup;
+			children = (
+				0ABC6B2C297714E0007A2D21 /* CityCollectionCell.swift */,
+				0ABC6B2D297714E0007A2D21 /* CityCollectionCell.xib */,
+				0ABC6B3229771511007A2D21 /* SortCollectionCell.swift */,
+				0ABC6B3329771511007A2D21 /* SortCollectionCell.xib */,
+			);
+			path = CollectionsB;
 			sourceTree = "<group>";
 		};
 		A55501FDE772653CBA5F6070 /* Frameworks */ = {
@@ -172,8 +226,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABC6B2F297714E0007A2D21 /* CityCollectionCell.xib in Resources */,
+				0A63141E2979A64400687FEF /* StonesCell.xib in Resources */,
 				0ABC6B142976FFC5007A2D21 /* LaunchScreen.storyboard in Resources */,
 				0ABC6B112976FFC5007A2D21 /* Assets.xcassets in Resources */,
+				0ABC6B3529771511007A2D21 /* SortCollectionCell.xib in Resources */,
 				0ABC6B0F2976FFC1007A2D21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,12 +301,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABC6B2E297714E0007A2D21 /* CityCollectionCell.swift in Sources */,
+				0A63141D2979A64400687FEF /* StonesCell.swift in Sources */,
+				0A6314192979A58700687FEF /* StonesController.swift in Sources */,
 				0ABC6B2429770D0B007A2D21 /* ProfileController.swift in Sources */,
 				0ABC6B202977052F007A2D21 /* Model.swift in Sources */,
 				0ABC6B0C2976FFC1007A2D21 /* ViewController.swift in Sources */,
 				0ABC6B082976FFC1007A2D21 /* AppDelegate.swift in Sources */,
+				0A6314152979A51F00687FEF /* ModelStones.swift in Sources */,
+				0A6314172979A52C00687FEF /* ProviderStones.swift in Sources */,
 				0ABC6B1E29770526007A2D21 /* BelarusbankAPI.swift in Sources */,
+				0A6314132979A51400687FEF /* APIStones.swift in Sources */,
 				0ABC6B222977053C007A2D21 /* Provider.swift in Sources */,
+				0ABC6B3429771511007A2D21 /* SortCollectionCell.swift in Sources */,
 				0ABC6B0A2976FFC1007A2D21 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

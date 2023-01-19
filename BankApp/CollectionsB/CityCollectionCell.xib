@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CityCollectionCell" id="gTV-IL-0wX" customClass="CityCollectionCell" customModule="BankApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="54"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="54"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7UI-zp-naF">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="54"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kw-e1-UX2">
+                                <rect key="frame" x="0.0" y="0.0" width="167" height="54"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1kw-e1-UX2" firstAttribute="leading" secondItem="7UI-zp-naF" secondAttribute="leading" id="Nf2-eE-CBO"/>
+                            <constraint firstAttribute="trailing" secondItem="1kw-e1-UX2" secondAttribute="trailing" id="TIu-Pv-3U3"/>
+                            <constraint firstItem="1kw-e1-UX2" firstAttribute="top" secondItem="7UI-zp-naF" secondAttribute="top" id="dHl-H6-ZgQ"/>
+                            <constraint firstAttribute="bottom" secondItem="1kw-e1-UX2" secondAttribute="bottom" id="s6n-xb-haL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="7UI-zp-naF" secondAttribute="trailing" id="1xt-h8-XY1"/>
+                <constraint firstAttribute="bottom" secondItem="7UI-zp-naF" secondAttribute="bottom" id="7Wv-JT-ZPY"/>
+                <constraint firstItem="7UI-zp-naF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ZW0-zg-pYW"/>
+                <constraint firstItem="7UI-zp-naF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="daC-h0-its"/>
+            </constraints>
+            <size key="customSize" width="167" height="54"/>
+            <connections>
+                <outlet property="buttonCity" destination="1kw-e1-UX2" id="Be3-Ez-h5m"/>
+            </connections>
+            <point key="canvasLocation" x="125.95419847328243" y="21.126760563380284"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
