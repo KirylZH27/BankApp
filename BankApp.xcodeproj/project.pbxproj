@@ -13,6 +13,12 @@
 		0A6314192979A58700687FEF /* StonesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6314182979A58700687FEF /* StonesController.swift */; };
 		0A63141D2979A64400687FEF /* StonesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A63141B2979A64400687FEF /* StonesCell.swift */; };
 		0A63141E2979A64400687FEF /* StonesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A63141C2979A64400687FEF /* StonesCell.xib */; };
+		0A6314222979C81600687FEF /* DiamondsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6314202979C81600687FEF /* DiamondsCell.swift */; };
+		0A6314232979C81600687FEF /* DiamondsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6314212979C81600687FEF /* DiamondsCell.xib */; };
+		0A6314262979C84E00687FEF /* APIDiamonds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6314252979C84E00687FEF /* APIDiamonds.swift */; };
+		0A6314282979C86E00687FEF /* ModelDiamonds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6314272979C86E00687FEF /* ModelDiamonds.swift */; };
+		0A63142A2979C88600687FEF /* ProviderDiamonds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6314292979C88600687FEF /* ProviderDiamonds.swift */; };
+		0A63142C2979C8BE00687FEF /* DiamondsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A63142B2979C8BE00687FEF /* DiamondsController.swift */; };
 		0ABC6B082976FFC1007A2D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B072976FFC1007A2D21 /* AppDelegate.swift */; };
 		0ABC6B0A2976FFC1007A2D21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B092976FFC1007A2D21 /* SceneDelegate.swift */; };
 		0ABC6B0C2976FFC1007A2D21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC6B0B2976FFC1007A2D21 /* ViewController.swift */; };
@@ -37,6 +43,12 @@
 		0A6314182979A58700687FEF /* StonesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonesController.swift; sourceTree = "<group>"; };
 		0A63141B2979A64400687FEF /* StonesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonesCell.swift; sourceTree = "<group>"; };
 		0A63141C2979A64400687FEF /* StonesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StonesCell.xib; sourceTree = "<group>"; };
+		0A6314202979C81600687FEF /* DiamondsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondsCell.swift; sourceTree = "<group>"; };
+		0A6314212979C81600687FEF /* DiamondsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiamondsCell.xib; sourceTree = "<group>"; };
+		0A6314252979C84E00687FEF /* APIDiamonds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDiamonds.swift; sourceTree = "<group>"; };
+		0A6314272979C86E00687FEF /* ModelDiamonds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDiamonds.swift; sourceTree = "<group>"; };
+		0A6314292979C88600687FEF /* ProviderDiamonds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDiamonds.swift; sourceTree = "<group>"; };
+		0A63142B2979C8BE00687FEF /* DiamondsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondsController.swift; sourceTree = "<group>"; };
 		0ABC6B042976FFC1007A2D21 /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABC6B072976FFC1007A2D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ABC6B092976FFC1007A2D21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +103,27 @@
 			path = StonesCell;
 			sourceTree = "<group>";
 		};
+		0A63141F2979C6FD00687FEF /* Diamonds */ = {
+			isa = PBXGroup;
+			children = (
+				0A6314242979C82B00687FEF /* DiamondsCell */,
+				0A6314252979C84E00687FEF /* APIDiamonds.swift */,
+				0A6314272979C86E00687FEF /* ModelDiamonds.swift */,
+				0A6314292979C88600687FEF /* ProviderDiamonds.swift */,
+				0A63142B2979C8BE00687FEF /* DiamondsController.swift */,
+			);
+			path = Diamonds;
+			sourceTree = "<group>";
+		};
+		0A6314242979C82B00687FEF /* DiamondsCell */ = {
+			isa = PBXGroup;
+			children = (
+				0A6314202979C81600687FEF /* DiamondsCell.swift */,
+				0A6314212979C81600687FEF /* DiamondsCell.xib */,
+			);
+			path = DiamondsCell;
+			sourceTree = "<group>";
+		};
 		0ABC6AFB2976FFC1007A2D21 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +145,7 @@
 		0ABC6B062976FFC1007A2D21 /* BankApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A63141F2979C6FD00687FEF /* Diamonds */,
 				0A6314112979A50200687FEF /* Stones */,
 				0ABC6B2B297714BD007A2D21 /* CollectionsB */,
 				0ABC6B1C29770517007A2D21 /* API */,
@@ -232,6 +266,7 @@
 				0ABC6B112976FFC5007A2D21 /* Assets.xcassets in Resources */,
 				0ABC6B3529771511007A2D21 /* SortCollectionCell.xib in Resources */,
 				0ABC6B0F2976FFC1007A2D21 /* Main.storyboard in Resources */,
+				0A6314232979C81600687FEF /* DiamondsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +337,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABC6B2E297714E0007A2D21 /* CityCollectionCell.swift in Sources */,
+				0A6314222979C81600687FEF /* DiamondsCell.swift in Sources */,
 				0A63141D2979A64400687FEF /* StonesCell.swift in Sources */,
 				0A6314192979A58700687FEF /* StonesController.swift in Sources */,
 				0ABC6B2429770D0B007A2D21 /* ProfileController.swift in Sources */,
+				0A63142A2979C88600687FEF /* ProviderDiamonds.swift in Sources */,
+				0A63142C2979C8BE00687FEF /* DiamondsController.swift in Sources */,
+				0A6314282979C86E00687FEF /* ModelDiamonds.swift in Sources */,
+				0A6314262979C84E00687FEF /* APIDiamonds.swift in Sources */,
 				0ABC6B202977052F007A2D21 /* Model.swift in Sources */,
 				0ABC6B0C2976FFC1007A2D21 /* ViewController.swift in Sources */,
 				0ABC6B082976FFC1007A2D21 /* AppDelegate.swift in Sources */,
